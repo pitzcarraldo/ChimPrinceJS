@@ -1,7 +1,7 @@
 {
-  "name": "prince-js",
+  "name": "chimprince-js",
   "version": "1.0.0",
-  "description": "Prince of Persia (JavaScript)",
+  "description": "ChimPrince of Hominchon (JavaScript)",
   "main": "index.js",
   "directories": {
     "assets": "assets",
@@ -10,7 +10,7 @@
     "src": "src"
   },
   "scripts": {
-    "start": "http-server",
+    "start": "http-server -c-1",
     "convert": "node converter/index.js",
     "convert:own:99": "node converter/index.js './converter/98 - Own/level1.xml' 98",
     "convert:own:100": "node converter/index.js './converter/98 - Own/level2.xml' 98",
@@ -19,12 +19,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/oklemenz/PrinceJS.git"
+    "url": "git+https://github.com/pitzcarraldo/ChimPrinceJS.git"
   },
   "bugs": {
-    "url": "https://github.com/oklemenz/PrinceJS/issues"
+    "url": "https://github.com/pitzcarraldo/ChimPrinceJS/issues"
   },
-  "homepage": "https://github.com/oklemenz/PrinceJS#readme",
+  "homepage": "https://github.com/pitzcarraldo/ChimPrinceJS#readme",
   "devDependencies": {
     "eslint": "^8.14.0",
     "eslint-config": "^0.3.0",
